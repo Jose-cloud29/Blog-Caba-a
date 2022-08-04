@@ -1,0 +1,8 @@
+body{background-color:white;}
+body{background-image: url(../images/mapa.jpg);}
+.camino{background-color: snow;}
+.situacion{background-color: forestgreen;}
+.opcion{background-color: Snow;}
+form {font-weight: bolder;}
+#titulo{text-align: center;
+color:green}

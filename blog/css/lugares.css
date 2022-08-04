@@ -1,0 +1,7 @@
+body {background-image: url(../images/playa.jpg);
+text-align: center;}
+.titulo{background-color: white;}
+.desarrollo{background-color: aquamarine;}
+.viajar{background-color: turquoise;}
+.algunos{background-color: lightgreen;}
+form {font-weight: bolder;}

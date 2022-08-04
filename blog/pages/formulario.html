@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/mascotas.css">
+    <link rel="shortcut icon" href="../icons/perros_y_gatos.ico"/>
+</head>
+<h1 class="bienvenido" id="bienvenido" >Bienvenidos a <em><strong>NetPet</strong></em></h1>
+<h3 class="espacio" id="espacio" >Este espacio para nuestas queridas mascotas</h3>
+<body>
+    <p> <img src="../images/mascotas.jpg" alt="mascotas"> </p> 
+    <form action="https://formspree.io/f/mgepzvrl" method ="POST">
+        
+        <label>Que mascota tenes?
+            <select name="Que mascota tenes">
+                <option>Perro</option>
+                <option>Gato</option>
+                <option>Otros</option>
+            </select>
+        </label>
+            </br></br>   
+        <label><strong>Nombre de la mascota:</strong> <input required type="text" name="nombre" placeholder="Nombre"></label>
+            </br></br>
+        <label>Edad de la mascota: <input required type="number" name="edad" placeholder="edad"></label>
+            </br></br>
+        <label>Genero de la masctota: 
+            </br></br></label>
+        <label>Masculino<input type="radio" name="boton" placeholder="mascuilno" value="mas"></label>  
+            </br></br>
+        <label>Femenino <input type="radio" name="boton" placeholder="femenino" value="fem"> </label>  
+            </br></br>
+        <label>Color de la mascota: <input required type="color" name="color"></label>
+            </br></br>
+        <label>Contraseña: <input required type="password" name="contraseña" placeholder="contraseña"></label>
+            </br></br>
+        <label>Email: <input required type="email" name="email" placeholder="email"></label>
+            </br></br>
+        <label for ="consultas">¿Tenes alguna duda mas?</label>
+            </br></br>
+        <textarea id="consultas" rows="10" cols="40" placeholder="Dejanos tu consulta aqui"></textarea>
+            </br></br>
+        <label for="checkbox">Acepto las bases y condiciones: </label>
+            <input id="checkbox" name="mailing" type="checkbox" value="consent"> 
+                </br></br>
+            <input type="submit" name="enviar" >
+    </form>
+    <p></p>
+        <a href="../index.html"> <<< Volver a la pagina principal</a>
+    <footer>
+        <h3 class="desarrollo" id="desarrollo" >Desarrollado por Jose Luis Cabaña de la comision 41165</h3>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body {background-color: turquoise;}
+body {background-image: url(../images/huellas.jpg);
+text-align: center;}
+.bienvenido {background-color:turquoise }
+.espacio {background-color: lightgreen;}
+.desarrollo{background-color: aquamarine;}
+form {font-weight: bolder;}

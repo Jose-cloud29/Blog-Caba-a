@@ -1,0 +1,42 @@
+body {background-image: url(../images/bosque.estrellado.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover ;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    }
+.titulo{color: black;
+text-align: center;
+background-color: black;
+padding: 10px 10px;
+background-image: url(../images/estrellas.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+
+#titulo{ color: whitesmoke;}
+.enlaces{color: goldenrod;
+font-size: medium;}
+
+body {
+    animation: fadein 4s; 
+} 
+@keyframes fadein {
+    0% {
+    opacity:0;
+    }
+    25%{
+    opacity:0.25;
+    }
+    50%{
+    opacity:0.5;
+    }
+    75%{
+        opacity:0.75;
+    }
+    100% {
+    opacity:1;
+    }
+}

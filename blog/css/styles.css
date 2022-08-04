@@ -1,0 +1,65 @@
+body{background-image: url(../images/desierto1.jpg);
+text-align: center;
+align-items: center;
+margin: auto;
+background-position: center;
+background-size: cover;
+}
+.image{background-image: url(../images/techo.jpg);
+text-align: center;
+background-position: center;
+background-size: cover;}
+
+#pared{background-image: url(../images/ladrillos.jpg);
+text-align: center;
+background-position: center;
+background-size: cover;
+font-weight: bolder;
+color:black;}
+
+.jumbotron {text-align:center;}
+
+img{border-radius: 50%;}
+
+.container{text-align: center;
+border-radius: 10px;
+padding: 4px;}
+
+.h{font-family: Verdana ;}
+
+.row{font-weight: bolder;}
+
+.lead{text-align: center;
+font-weight: bolder;}
+
+p{text-align: center;}
+
+#comision{color:aquamarine}
+
+#col{text-align: center;}
+
+.redes{display: inline-block;
+padding: 5px ;}
+
+#social{background-color:lightblue ;
+text-align: center;}
+
+#sociales li{display: inline-block;
+align-items: center;
+text-align: center;
+margin: auto;}
+
+#sociales{text-align: center;}
+
+#ok{text-align: center;
+margin: auto;}
+
+#copy{margin: auto;
+text-align: center;
+display: inline-block;} 
+
+#form{align-items: left;
+text-align: left;}
+
+hr{height: 1px;
+background-color: black;}
